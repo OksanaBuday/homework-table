@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Forms</title>
+</head>
+
+<body>
+    <header>
+        <h1>АНКЕТА</h1>
+        <br>
+        <h2> Шановні громадяни!</h2>
+
+        <p> Львівська міська рада спільно із Львівською комерційною академією проводить соціологічне дослідження щодо оцінки громадського транспорту в місті Львові, з метою виявленню шляхів усунення недоліків у його роботі і поліпшення якості роботи громадського
+            транспорту міста Львова. Нам важливо знати Вашу думку, в розрізі поданих у анкеті запитань. Пропонуємо Вам ознайомитись з питаннями і навпроти обраного варіанту відповіді поставити знак <b>«+».</b> Ваша думка для нас є дуже важливою! <i>Від щирості Ваших відповідей залежатиме якість нашого дослідження, результати якого використовуватимуться в узагальненому вигляді.</i>
+        </p>
+        </i </header>
+
+        <nav>
+            <ul>
+                <li> <a href="table.html"> Tables</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <div>
+                <form method="Post" action="https://formspree.io/oksanabuday@gmail.com">
+                    <label>Ім'я та Прізвище: 
+      <input type="text" name="first-name-last-name" placeholder="Ім'я та Прізвище" required>
+      </label>
+                    <br>
+                    <label>Район проживання: 
+      <input type="text" name="District-residence" placeholder="Район-проживання" required>
+      </label>
+                  
+                    <br>
+                    <label for="дата-опитування">Дата опитування:</label>
+                    <input id="дата-опитування" type="date" name="survey-data" placeholder="Дата опитування" required>
+                    <br>
+                    <label>E-mail:<input type="email.com" name="e-mail" placeholder="e-mail"> </label>
+
+            </div>
+
+            <div>
+                <h2>Запитання:</h2>
+
+                <label>1. Ваша стать:<br>
+                <input type="radio" name="sex" value="Чоловіча">Чоловіча</label>
+                <label> <input type="radio" name="sex" value="Жіноча"> Жіноча </label>
+                <br>
+                <br>
+                <br>
+                <label>2. Ваш вік:
+                <br>
+                <input type="radio" name="age" value="до 18 років">до 18 років</label>
+                <label> <input type="radio" name="age" value="19 – 36 років">19 – 36 років </label>
+                <label> <input type="radio" name="age" value="37 – 49 років">37 – 49 років </label>
+                <label> <input type="radio" name="age" value="50 – 60 років">50 – 60 років </label>
+                <br>
+                <br>
+                <br>
+                <label> 3. Оцініть, будь ласка,  якість обслуговування громадського транспорту міста Львова за шкалою: від 1 до 5 балів. ( 1бал –5 балів): 
+    <input type="number" name="quality-of-service">
+    </label>
+                <br>
+                <br>
+
+                <label>4. У якому районі міста, на вашу думку, найбільш переповнений транспорт:
+    <select name="district-crowded">
+        <option value="Франківському">Франківському</option> 
+        <option value="Шевченківському">Шевченківському</option>
+        <option value="Галицькому">Галицькому</option>
+        <option value="Личаківському">Личаківському</option>
+        <option value="Сихівському">Сихівському</option>
+        <option value="Залізничному">Залізничному</option>
+         </select>
+    </label>
+                <br>
+                <br>
+                <br>
+                <label> 5. Скільки часу Вам доводиться чекати на громадський транспорт(у хвилинах): <input type="text" name="час-очікування" pattern="[0-9]{2}"></label>
+                <br>
+                <br>
+                <br>
+                <label>6. Якими видами громадського транспорту Ви традиційно користуєтесь:
+ <select name="kind">
+     <option value="трамваями">трамваями</option>
+     <option value="тролейбусами">тролейбусами</option>
+     <option value="маршрутними таксі">маршрутними таксі</option>
+     <option value="інший (вкажіть)">інший (вкажіть)
+     <input type="text" name="other"/></option>
+ </select>
+ </label>
+                <br>
+                <br>
+                <br>
+                <label> 7.Чому Ви обрали саме цей вид транспорту:<br>
+                <input type="radio" name="cheap">дешево</label>
+                <label><input type="radio" name="easy">зручно</label>
+                <label><input type="radio" name="quickly">швидко</label>
+                <label><input type="radio" name="other">інше</label>
+                <br>
+                <br>
+                <br>
+                <label> 8.Як ви оціните комфортність проїзду у трамваї:
+<select name="сomfort-tram">
+    <option value="відмінно">відмінно</option>
+    <option value="добре">добре</option>
+    <option value="погано">погано</option>
+    <option value="не користуюсь">не користуюсь</option>
+    
+</select>
+</label>
+                <br>
+                <br>
+                <br>
+                <label> 9.Як ви оціните комфортність проїзду у тролейбусі:
+<select name="Comfort-trolley">
+    <option value="відмінно">відмінно</option>
+    <option value="добре">добре</option>
+    <option value="погано">погано</option>
+    <option value="не користуюсь">не користуюсь</option>
+    
+</select>
+</label>
+                <br>
+                <br>
+                <br>
+                <label> 10.Як ви оціните комфортність проїзду у марштутних таксі:
+<select name="comfort-taxi">
+    <option value="відмінно">відмінно</option>
+    <option value="добре">добре</option>
+    <option value="погано">погано</option>
+    <option value="не користуюсь">не користуюсь</option>
+    
+</select>
+</label>
+                <br>
+                <br>
+                <br>
+                <label> 11.Які, на Вашу думку, є ціни на проїзд у громадському транспорті міста Львова:<br>
+    <input type="radio" name="high">високі</label>
+                <label>
+    <input type="radio" name="middle"> середні
+    </label>
+                <label>
+    <input type="radio" name="low"> низькі
+    </label>
+                <label>
+    <input type="radio" name="difficult-to-answer"> важко відповісти
+    </label>
+<br>
+<br>
+<br>
+<br>
+<label>12.Проблеми громадського транспорту, які Вас найбільше турбують:
+<select name="problems">
+    <option value="перевантаженість транспорту">перевантаженість транспорту</option>
+    <option value="високі ціни на проїзд">високі ціни на проїзд</option>
+    <option value="відсутність безпеки і комфорту пересування.">відсутність безпеки і комфорту пересування.</option>
+    <option value="інше">інше</option>
+</select>
+</label>
+<br>
+<br>
+<br>
+<label>13.Як ви оціните чистоту громадського транспорту міста Львова:<br>
+<input type="radio" name="purely">чисто
+</label>
+<label> <input type="radio" name="dirtily">брудно</label>
+<label> <input type="radio" name="non-pay-attention">не звертав уваги</label>
+<br>
+<br>
+<br>
+<label> 14. Ваші пропозиції щодо покращення якості обслуговування у громадському транспорті м. Львів:<br>
+    <textarea name="deals" rows="7" cols="90">
+        
+    </textarea> 
+</label>
+<br>
+<br>
+<br>
+<label> 15. Ви користуєтесь громадським транспортом:<br>
+          <input type="checkbox" name="use" value="Так">Так
+          </label>
+          <label>
+          
+          <input type="checkbox" name="use" value="НІ">Ні
+          </label>
+          <br>
+          <br>
+          <br>
+          
+<input type="submit" value="Відіслати дані!">
+<input type="reset" value="Почати спочатку!">
+
+          
+       
+            </div>
+            </form>
+        </main>
+        
+        <footer>
+            <p>Львівська міска рада 
+            <br>місто Львів. 2017
+            </p> 
+           
+        </footer>
+
+
+</body>
+
+</html>
