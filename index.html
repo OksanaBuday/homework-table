@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="uk">
 
 <head>
     <meta charset="UTF-8">
@@ -15,7 +15,7 @@
         <p> Львівська міська рада спільно із Львівською комерційною академією проводить соціологічне дослідження щодо оцінки громадського транспорту в місті Львові, з метою виявленню шляхів усунення недоліків у його роботі і поліпшення якості роботи громадського
             транспорту міста Львова. Нам важливо знати Вашу думку, в розрізі поданих у анкеті запитань. Пропонуємо Вам ознайомитись з питаннями і навпроти обраного варіанту відповіді поставити знак <b>«+».</b> Ваша думка для нас є дуже важливою! <i>Від щирості Ваших відповідей залежатиме якість нашого дослідження, результати якого використовуватимуться в узагальненому вигляді.</i>
         </p>
-        </i </header>
+         </header>
 
         <nav>
             <ul>
@@ -25,7 +25,7 @@
 
         <main>
             <div>
-                <form method="Post" action="https://formspree.io/oksanabuday@gmail.com">
+                <form action="https://formspree.io/oksanabuday@gmail.com" method="POST">
                     <label>Ім'я та Прізвище: 
       <input type="text" name="first-name-last-name" placeholder="Ім'я та Прізвище" required>
       </label>
@@ -33,15 +33,13 @@
                     <label>Район проживання: 
       <input type="text" name="District-residence" placeholder="Район-проживання" required>
       </label>
-                  
                     <br>
                     <label for="дата-опитування">Дата опитування:</label>
-                    <input id="дата-опитування" type="date" name="survey-data" placeholder="Дата опитування" required>
+                    <input id="дата-опитування" type="date" name="date" placeholder="number" required>
                     <br>
-                    <label>E-mail:<input type="email.com" name="e-mail" placeholder="e-mail"> </label>
-
+                    <label> E-mail:<input type="email" name="email.com" placeholder="email.com"> </label>
+                    </form>
             </div>
-
             <div>
                 <h2>Запитання:</h2>
 
@@ -79,7 +77,7 @@
                 <br>
                 <br>
                 <br>
-                <label> 5. Скільки часу Вам доводиться чекати на громадський транспорт(у хвилинах): <input type="text" name="час-очікування" pattern="[0-9]{2}"></label>
+                <label> 5. Скільки часу Вам доводиться чекати на громадський транспорт(у хвилинах): <input type="text" name="time" pattern="[0-9]{2}"></label>
                 <br>
                 <br>
                 <br>
@@ -88,8 +86,7 @@
      <option value="трамваями">трамваями</option>
      <option value="тролейбусами">тролейбусами</option>
      <option value="маршрутними таксі">маршрутними таксі</option>
-     <option value="інший (вкажіть)">інший (вкажіть)
-     <input type="text" name="other"/></option>
+     <option value="інший (вкажіть)"> інший </option>
  </select>
  </label>
                 <br>
@@ -198,7 +195,6 @@
           
        
             </div>
-            </form>
         </main>
         
         <footer>
